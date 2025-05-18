@@ -37,16 +37,18 @@ body {
 /* Header Section (Centered, Reduced Width) */
 .header-container {
   position: relative;
-  width: 80vw;              /* 80% of screen width */
-  height: 100vh;            /* Full screen height */
+  width: 50vw;              /* 80% of screen width */
+  height: 50vh;            /* Full screen height */
   margin: 0 auto;           /* Center horizontally */
   overflow: hidden;
+  object-fit: contain;
+  object-position: center;
   background-color: #ffd8d7;
 }
 
 /* Background Image inside Hero */
 .header-image {
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-fit: contain;     /* Fit image without zoom/crop */
   object-position: center;
