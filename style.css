@@ -78,6 +78,36 @@ body {
   opacity: 1;
 }
 
+/* Header Navigation Menu */
+.header-nav {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  z-index: 2;
+}
+
+.header-nav li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #7b1c27; /* Match your brand red */
+  background: rgba(255, 255, 255, 0.85);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.header-nav a:hover {
+  background-color: #d6336c;
+  color: white;
+}
+
 h1 {
   color: #d6336c;
   margin-top: 20px;
