@@ -22,8 +22,9 @@ body {
 }
 
 #splash img {
-  max-width: 150px;
-  animation: zoomIn 1.5s ease;
+  max-width: 400px;
+  width: 100%;
+  animation: zoomIn 2s ease;
 }
 
 @keyframes zoomIn {
