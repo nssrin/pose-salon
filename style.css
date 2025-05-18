@@ -68,3 +68,12 @@ h1 {
   display: block;
   margin: 0 auto 10px;
 }
+
+.header-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Limit how tall it gets */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
