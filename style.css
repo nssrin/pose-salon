@@ -55,19 +55,15 @@ body {
   display: block;
 }
 
-/* Top-left logo inside the header */
 .header-logo {
   position: absolute;
-  top: 15px;
-  left: 25px;
-  width: 500px;
-  height: 500px;
+  top: 30px;          /* Adjust closer or further from top */
+  left: 30px;         /* Adjust closer or further from left */
+  width: 180px;       /* Much more appropriate size */
+  height: auto;
   object-fit: contain;
-  padding: 8px;
-  border-radius: 12px;
-/*   background-color: white; */
-/*   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
-/*   z-index: 2; */
+  background: transparent;   /* Ensure background is transparent */
+  z-index: 2;
 }
 
 /* Main Content Section */
