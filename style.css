@@ -59,7 +59,7 @@ body {
   position: absolute;
   top: 30px;          /* Adjust closer or further from top */
   left: 30px;         /* Adjust closer or further from left */
-  width: 250px;       /* Much more appropriate size */
+  width: 350px;       /* Much more appropriate size */
   height: auto;
   object-fit: contain;
   background: transparent;   /* Ensure background is transparent */
