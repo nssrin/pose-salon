@@ -37,7 +37,7 @@ body {
 /* Header Section (Centered, Reduced Width) */
 .header-container {
   position: relative;
-  width: 100vh;              /* 80% of screen width */
+  width: 350vh;              /* 80% of screen width */
   height: 50vh;            /* Full screen height */
   margin: 0 auto 20px;           /* Center horizontally */
   overflow: hidden;
